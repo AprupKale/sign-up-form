@@ -48,9 +48,9 @@ p#logo-text {
 
 div.logo {
     position: fixed;
-    background: rgb(255, 255, 255, 0.2);
+    background: rgb(0, 0, 0, 0.2);
     top: 22.5%;
     left: 0;
     width: 40%;
-    height: 20%;
+    height: 18%;
 }
