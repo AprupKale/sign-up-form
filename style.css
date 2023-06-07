@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Norse Bold';
+    src: url(./fonts/Norse-Bold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: 'Averia Libre';
+    src: url(./fonts/Averia-Libre/AveriaLibre-Light.ttf) format("truetype");
+}
