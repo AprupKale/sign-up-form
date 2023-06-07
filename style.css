@@ -62,18 +62,18 @@ div.content {
     left: 40%;
     width: 60%;
     height: 100%;
-    background-color: lightgray;
+    background-color: ghostwhite;
 }
 
 div.form-header {
     width: 100%;
-    height: 30%;
+    height: 20%;
 }
 
 div.form-header p {
     padding: 0 10%;
     font-weight: bold;
-    font-size: 30px;
+    font-size: calc(calc(3vw + 5vh) / 4);
 }
 
 div.form-header p:first-of-type {
@@ -90,9 +90,86 @@ form {
     height: 40%;
 }
 
+fieldset {
+    background-color: white;
+    border: 0;
+    height: 80%;
+}
+
+legend {
+    position: relative;
+    top: 5%;
+    left: 10%;
+    font-size: calc(calc(3vw + 5vh) / 4);
+}
+
+input, label {
+    display: block;
+    font-size: calc(calc(3vw + 5vh) / 6);
+}
+
+div > input {
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 30%;
+    padding: 0.5% 1%;
+    font-family: inherit;
+    font-size: calc(calc(3vw + 5vh) / 6);;
+}
+
+div.first-name {
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+
+div.last-name {
+    position: relative;
+    top: -9%;
+    left: 60%;
+}
+
+div.email {
+    position: relative;
+    left: 10%;
+}
+
+div.phone {
+    position: relative;
+    top: -19%;
+    left: 60%;
+}
+
+div.password {
+    position: relative;
+    top: -10%;
+    left: 10%;
+}
+
+div.password-confirm {
+    position: relative;
+    top: -29%;
+    left: 60%;
+}
+
+button {
+    position: relative;
+    top: 5%;
+    left: 10%;
+    background-color: purple;
+    border: 4px solid purple;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: calc(calc(3vw + 5vh) / 5);
+    height: 10%;
+    width: 20%
+}
+
 div.form-footer p {
-    padding: 0 10%;
-    font-size: 20px;
+    padding: 2% 10%;
+    font-size: calc(calc(3vw + 5vh) / 5);
 }
 
 div.form-footer p a {
